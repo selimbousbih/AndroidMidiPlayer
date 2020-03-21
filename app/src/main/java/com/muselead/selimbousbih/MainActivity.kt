@@ -1,4 +1,4 @@
-package com.muselead.selimbousbih
+package com.selimbousbih.midiplayer
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle

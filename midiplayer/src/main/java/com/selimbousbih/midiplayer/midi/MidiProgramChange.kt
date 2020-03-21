@@ -1,4 +1,4 @@
-package com.muselead.selimbousbih.midi
+package com.selimbousbih.midiplayer.midi
 
 import org.billthefarmer.mididriver.MidiDriver
 

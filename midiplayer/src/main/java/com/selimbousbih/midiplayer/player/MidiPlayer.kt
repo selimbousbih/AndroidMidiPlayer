@@ -1,6 +1,6 @@
-package com.muselead.selimbousbih.player
+package com.selimbousbih.midiplayer.player
 
-import com.muselead.selimbousbih.midi.MidiEvent
+import com.selimbousbih.midiplayer.midi.MidiEvent
 import org.billthefarmer.mididriver.MidiDriver
 
 class MidiPlayer {

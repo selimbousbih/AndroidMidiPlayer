@@ -1,4 +1,4 @@
-package com.muselead.selimbousbih.data
+package com.selimbousbih.midiplayer.data
 
 import org.json.JSONObject
 
@@ -8,7 +8,7 @@ data class Program(
     val value: Int
 ){
     companion object{
-        fun fromJson(obj: JSONObject) : Program{
+        fun fromJson(obj: JSONObject) : Program {
             return Program(obj.optString("group"), obj.optString("name"), obj.optInt("val"))
         }
     }
