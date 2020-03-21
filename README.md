@@ -16,6 +16,7 @@ allprojects {
 ```
 In your Application's or Module's build.gradle file:
 ```
+implementation 'com.github.billthefarmer:mididriver:v1.17'
 implementation 'com.github.selimbousbih:AndroidMidiPlayer:-SNAPSHOT'
 ```
 
