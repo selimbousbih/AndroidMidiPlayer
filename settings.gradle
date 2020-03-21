@@ -1,0 +1,3 @@
+rootProject.name='MidiPlayer'
+include ':app'
+include ':midiplayer'

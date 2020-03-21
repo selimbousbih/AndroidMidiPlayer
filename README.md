@@ -1,2 +1,2 @@
-# AndroidMidiPlayer
+# MidiPlayer
  
