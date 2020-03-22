@@ -32,6 +32,7 @@ open class MidiEvent(var type: Byte = 0, var channel: Int = 0, var v1: Int = 0, 
         const val NOTE_OFF = 0x80.toByte()
         const val PITCH_BEND = 0xe0.toByte()
         const val PROGRAM_CHANGE = 0xc0.toByte()
+        const val MIDI_CC = 0xB0.toByte()
     }
 
 }
