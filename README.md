@@ -5,7 +5,7 @@
 ### Setup
 In your project's build.gradle file:
 
-```
+```gradle
 allprojects {
     repositories {
         google()
@@ -15,13 +15,13 @@ allprojects {
 }
 ```
 In your Application's or Module's build.gradle file:
-```
+```gradle
 implementation 'com.github.billthefarmer:mididriver:v1.17'
 implementation 'com.github.selimbousbih:AndroidMidiPlayer:-SNAPSHOT'
 ```
 
 ### Example usage
-```
+```kt
 class MainActivity : AppCompatActivity(), MidiDriver.OnMidiStartListener {
     private val midiPlayer = MidiPlayer()
 
@@ -40,7 +40,7 @@ class MainActivity : AppCompatActivity(), MidiDriver.OnMidiStartListener {
 ```
 
 ### Other usages
-```
+```kt
 //Get list of midi programs, send midi program change event and play note 
 ProgramsDataSource().getPrograms(this).observe(this, Observer { programs ->
     if(programs.isNotEmpty()){
